@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-125 -125 250 250" role="img" aria-labelledby="title desc">
+  <title id="title">Fleibo Face</title>
+  <desc id="desc">Happy procedural Fleibo mascot face.</desc>
+  <defs>
+    <radialGradient id="fleibo-gradient" gradientUnits="userSpaceOnUse" cx="-50" cy="-64" r="244">
+      <stop offset="0%" stop-color="#fde7b5"/>
+      <stop offset="32%" stop-color="#fad58c"/>
+      <stop offset="72%" stop-color="#f7c974"/>
+      <stop offset="100%" stop-color="#9f7b32"/>
+    </radialGradient>
+  </defs>
+
+  <path
+    d="M 0 -100 H 0 A 100 100 0 0 1 100 0 V 0 A 100 100 0 0 1 0 100 H 0 A 100 100 0 0 1 -100 0 V 0 A 100 100 0 0 1 0 -100 Z"
+    fill="url(#fleibo-gradient)"
+  />
+
+  <path
+    d="M 24 -51 H 24 A 5.5 5.5 0 0 1 29.5 -45.5 V -22.5 A 5.5 5.5 0 0 1 24 -17 H 24 A 5.5 5.5 0 0 1 18.5 -22.5 V -45.5 A 5.5 5.5 0 0 1 24 -51 Z"
+    transform="rotate(-12 24 -34)"
+    fill="#414141"
+  />
+  <path
+    d="M 63 -50 H 63 A 5.5 5.5 0 0 1 68.5 -44.5 V -21.5 A 5.5 5.5 0 0 1 63 -16 H 63 A 5.5 5.5 0 0 1 57.5 -21.5 V -44.5 A 5.5 5.5 0 0 1 63 -50 Z"
+    transform="rotate(-12 63 -33)"
+    fill="#414141"
+  />
+  <path
+    d="M -7 10 C 10.48 40 67.52 43 85 13"
+    transform="rotate(7 39 10)"
+    fill="none"
+    stroke="#414141"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+</svg>
